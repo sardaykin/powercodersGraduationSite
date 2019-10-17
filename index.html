@@ -157,7 +157,7 @@
     <section id="registration">
       <h2>Registration</h2>
       <p>Maybe some more text?</p>
-      <form action="index.html" method="POST">
+      <form action="index.html" method="GET">
         <label for="fname">First name</label>
         <input name="fname" id="fname" type="text" required>
         <label for="lname">Last name</label>
@@ -178,6 +178,7 @@
       </address>
       <p>More infos about how to get there / parking / train etc.</p>
       <!--  Google Maps -->
+      <div id="map"></div>
     </section>
     <!-- Volunteers/Partners: Thanks to Powercoders community -->
     <section>
@@ -206,6 +207,7 @@
       <li><a href="https://www.linkedin.com/company/powercoders-coding-academy/" target="_blank">L</a></li>
     </ul>
   </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGbkUb3TW4Vaa9DLNpHyAoP8izFwcPcso&callback=initMap" async defer></script>
   <script src="assets/js/library.js"></script>
   <script src="assets/js/scripts.js"></script>
 </body>

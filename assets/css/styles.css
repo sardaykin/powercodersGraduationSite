@@ -19,3 +19,7 @@ a {
 h1, h2, strong {
   color: #111;
 }
+#map {
+  height: 400px;
+  width: 100%;
+}
